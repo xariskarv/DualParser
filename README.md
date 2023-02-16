@@ -8,13 +8,13 @@ Features:
   * Checks for any syntax mistakes that might exist.
   * Stores its coefficients to matrices.
        
-         c matrix is used to store the coefficients of objective function. <br />
-         A matrix is used to store the coefficients of linear constraints. <br />
-         b matrix is used to store the values of linear constraints after the symbols (<=,>=,=) <br />
-         Eqin matrix is used to store the relational operators of linear constraints. <br />
-             -1 is used for less than (<=) <br />
-              1 is used for greater than (>=) <br />
-         MinMax is used to store the value -1 if its a minimization problem or 1 otherwise. <br />
+         c matrix is used to store the coefficients of objective function. 
+         A matrix is used to store the coefficients of linear constraints. 
+         b matrix is used to store the values of linear constraints after the symbols (<=,>=,=) 
+         Eqin matrix is used to store the relational operators of linear constraints. 
+             -1 is used for less than (<=) 
+              1 is used for greater than (>=) 
+         MinMax is used to store the value -1 if its a minimization problem or 1 otherwise. 
         
        
          For example if the primal problem is:
@@ -38,5 +38,5 @@ Features:
        
          MinMax = [1]
        
-  * Uses these matrices to calculate the dual problem.*
+  * Uses these matrices to calculate the dual problem.
   * Prints the dual problem in a text file called DualProblem.
